@@ -48,3 +48,7 @@ function onBallClick4(elball) {
         elball2.style.height = ball2Size + 'px'
         elball2.style.width = ball2Size + 'px'
 }
+function onBallClick5(elball) {
+    var elBody= document.querySelector(`body`)
+    elBody.style.backgroundColor = getRandomColor()
+}
