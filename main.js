@@ -36,3 +36,15 @@ function onBallClick3(elball) {
         elball2.style.backgroundColor = 'blue'
     }
 }
+function onBallClick4(elball) {
+    ball1Size -= getRandomInt(20,61)
+    ball2Size -= getRandomInt(20,61)
+    if (ball1Size <100) ball1Size = 100
+    if (ball2Size <100) ball2Size = 100
+    var elball1 = document.querySelector(`.ball1`)
+    var elball2 = document.querySelector(`.ball2`)
+    elball1.style.height = ball1Size + 'px'
+        elball1.style.width = ball1Size + 'px'
+        elball2.style.height = ball2Size + 'px'
+        elball2.style.width = ball2Size + 'px'
+}
