@@ -15,12 +15,19 @@ h1{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: blue;
     font-size: 22px;
     font-weight: bold;
     transition: 1s;
+    margin-top: 10px;
+}
+.ball1{
+    background-color: blue;
 }
 .ball2{
     background-color:yellow;
-    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+.ball3{
+    background-color: purple;
 }
